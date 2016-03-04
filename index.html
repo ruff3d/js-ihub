@@ -1,0 +1,83 @@
+<!doctype html>
+<html class='no-js' lang=''>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='ie=edge' http-equiv='x-ua-compatible'>
+    <title>JS Todo list</title>
+    <meta content='' name='description'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='apple-touch-icon.png' rel='apple-touch-icon'>
+    <!-- Place favicon.ico in the root directory -->
+    <link href='css/normalize.css' rel='stylesheet'>
+    <link href='css/main.css' rel='stylesheet'>
+    <link href='css/app.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class='main'>
+      <div class='header'>
+        <h1>simple todo lists</h1>
+        <p>from ruby garage</p>
+      </div>
+      <div class='content'>
+        <section class='list'>
+          <article>
+            <div class='todo-header'>
+              <h3>Complete the test task for JS course</h3>
+              <ul class='hidden'>
+                <li>
+                  <a class='todo-action-edit' href='#' title='Edit'>Edit</a>
+                </li>
+                <li>
+                  <a class='todo-action-remove' href='#' title='Delete'>Delete</a>
+                </li>
+              </ul>
+              <input name='' type='text'>
+            </div>
+            <div class='todo-bar'>
+              <div class='todo-bar-new'>
+                <form>
+                  <input name='' placeholder='Start typing here to create a task...' type='text'>
+                    <button>Add Task</button>
+                  </input>
+                </form>
+              </div>
+            </div>
+            <div class='todo-list'>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class='todo-list-checkbox'>
+                      <input type='checkbox'>
+                    </td>
+                    <td class='todo-list-divider'>
+                      &nbsp;
+                    </td>
+                    <td class='todo-list-task'>
+                      <p>Open this mock-up in Adobe Fireworks</p>
+                    </td>
+                    <td class='todo-list-actions'>
+                      <ul class='hidden'>
+                        <li>
+                          <a class='todo-list-task-sort' href='#'>Sort</a>
+                        </li>
+                        <li>
+                          <a class='todo-list-task-edit' href='#'>Edit</a>
+                        </li>
+                        <li>
+                          <a class='todo-list-task-delete' href='#'>Delete</a>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </section>
+        <div class='new-todo'>
+          <a href="#">Add TODO list</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
