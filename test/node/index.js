@@ -1,7 +1,5 @@
 var calc = require('./calculator.js');
 
-//calc = new calculator();
-
 function calculator(expr) {
     if (typeof expr == 'string')
         try {
